@@ -7,7 +7,7 @@ Utilizando Node.js no backend com algumas rotas de validação e inserção de d
 2. Efetuar o escaneamento do QrCode via aplicativo Google Authenticator.
 3. Voltar para a tela de Login pelo link "Logar", preencher usuário, senha e o numero de token gerado pelo aplicativo com nome "SecretKey".
 4. Ser direcionado para pagina que mostra o usuário logado, este link do GitHub e as tecnologias utilizadas.
-5. Sair e retornar para tele de Login.
+5. Sair e retornar para tela de Login.
 
 by: Rafael Ramos.
 
