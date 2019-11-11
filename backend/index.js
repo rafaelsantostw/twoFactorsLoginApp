@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-//Utiliza porta gerada pela heroku 
-//Caso está não esteja definida, utiliza a porta 8080
+//Utiliza porta gerada pela heroku
+//Caso não esteja definida, utiliza a porta 8080
 const PORT = process.env.PORT || 8080;
 
 //var que simula um banco de dados onde na criação de usuario é dado .push
@@ -77,7 +77,6 @@ app.post('/addUser', (req, res)=>{
 app.get('/getUser', (req, res)=>{
     res.status(200).send({userData});
 });
-
 
 app.listen(PORT, () => {
     console.log('Server Runing on port 3000');
