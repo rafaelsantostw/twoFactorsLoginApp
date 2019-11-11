@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content" style="margin-top: 0px;">
+                <p>Cadastro de Usuario</p>
+                <form>
+                    <label for="">Usuário</label>
+                    <input id="username" type="text" name="username">
+                    <label for="">Senha</label>
+                    <input id="password" type="password" name="password">
+                    <!-- <label for="">Google Authenticator - Token</label> -->
+                    <!-- <img src="./assets/qrteste.png" alt=""/> -->
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <label for="" style="font-size: 19px;">Google Authenticator - Token</label>
+                            <p style="margin-top: 10px;font-weight: bold;">Escaneie o QrCode com o Google Authenticator</p>
+                            <p style="margin-top: 10px;font-weight: bold;">Depois de escanear clique em Logar</p>
+                            <img style="width: 220px; margin: 0px;" src="" id="qrcode" alt="">
+                            <p style="margin: 10px;font-weight: bold;">Token - Manual</p>
+                            <p id="secretKey" style="margin-bottom: 20px;"></p>
+                            <a href="index.html">Logar</a>
+                        </div>
+                    </div>
+
+
+
+                    
+                    <button class="btn" id="myBtn" type="button" onclick="createUser();">Enviar</button>
+                </form>
+                <a href="index.html">Logar</a>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

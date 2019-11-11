@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                
+                <form action="index.html">
+                    <label for="">Usuário logado</label>
+                    <p id="userLogged" class="userLogged"></p>
+                    <label for="">Link GITHUB</label>
+                    <p class="userLogged" style="font-size: 15px;">https://github.com/rafaelsantostw/twoFactorsLoginApp</p>
+                    <label for="">Tecnologias utilizadas</label>
+                    <table >
+                        <tr>
+                            <th>Tecnologias</th>
+                            <th>Descrição</th>
+                        </tr>
+                        <tr>
+                            <td>Node.js</td>
+                            <td>Backend, utilizado para validação do token do google authenticator e adicionar usuarios para teste.</td>
+                        </tr>
+                        <tr>
+                            <td>Speakeasy</td>
+                            <td>Speakeasy é um gerador de código de acesso único, para uso em autenticação de dois fatores, que suporta o Google Authenticator.</td>
+                        </tr>
+                    </table>
+                    <button class="btn" type="submit">Sair</button>
+                </form>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+        <script src="./js/localStorage.js"></script>
+    </body>
+</html>

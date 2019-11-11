@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #430068 50%, #8c2fb5 100%);
+  -webekit-font-smothing: antialiased !important;
+}
+
+body, input, button, table, p {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  margin: 80px auto 0;
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  background: #fff;
+  margin-top: 50px;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.content img {
+  width: 120px;
+  border-radius: 60px;
+  margin: 0px 130px 23px 130px;
+}
+
+.content>p {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 17px;
+  color: #444;
+  font-weight: bold;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content form label {
+  font-size: 14px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.content form input {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.content button.btn {
+  border: 0;
+  border-radius: 2px;
+  width: 100%;
+  height: 42px;
+  padding: 0 20px;
+  font-size: 16px;
+  background: #f05a5b;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.content button.btn:hover {
+  background: #e14f50;
+}
+
+.content a {
+  text-decoration: none;
+  color: #fff;
+  background: #f05a5b;
+  padding: 0 20px;
+  cursor: pointer;
+  margin: 0px 147px;
+  border-radius: 2px;
+}
+
+.content a:hover {
+  text-decoration: inline;
+  background: #e14f50;
+}
+
+.content table, th, td {
+  border: 1px solid rgb(184, 181, 181);
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 400px;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.userLogged {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
