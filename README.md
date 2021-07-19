@@ -11,6 +11,5 @@ Utilizando Node.js no backend com algumas rotas de validação e inserção de d
 
 Acessar Demo -> http://rramostwproject.esy.es/
 
-by: Rafael Ramos.
 
 
